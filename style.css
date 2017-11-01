@@ -1,0 +1,109 @@
+body {
+  font-family: 'Varela', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  font-size: 14px;
+  font-weight: lighter;
+  background-color: #E8E9EB;
+  color: #757780;
+  line-height: 25px;
+}
+
+h1,
+h2 {
+  font-family: 'Garamond', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: #2E3B3C;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  color: #606269;
+}
+
+a {
+  color: #A7A2A9;
+  text-decoration: none;
+  font-size: 50px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #525B76;
+}
+
+
+.fa {
+  font-size: 50px;
+  width: 100px;
+  padding: 20px;
+}
+
+.container {
+  width: 700px;
+  margin: 30px auto;
+  text-align: center;
+
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #EDF2F4;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px #E8E9EB;
+  padding: 20px
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+#img-circle {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.img-table {
+  width: 250px;
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline-block;
+}
+
+.table-text {
+  text-align: left;
+  padding-left: 20px;
+}
